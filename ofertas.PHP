@@ -24,7 +24,7 @@
         <i class="fa-solid fa-suitcase"></i>
         Paquetes
       </a>
-      <a href="inicio.PHP" class="link">
+      <a href="inicio.html" class="link">
         <i class="fa-solid fa-plane-departure"></i>
         Vuelos
       </a>
