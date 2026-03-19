@@ -8,14 +8,14 @@
         
  echo "<script>
           alert('Se Inicio Sesion con exito');
-          window.location.href = 'inicio.html';
+          window.location.href = 'inicio.php';
         </script>";
   exit();
     } 
     else{
          echo "<script>
           alert('Contraseñas no coinciden');
-          window.location.href = 'Registro.html';
+          window.location.href = 'Registro.php';
         </script>";
   exit();
     }
