@@ -65,8 +65,7 @@
 
 
       <h2>Tipo de alojamientos</h2>
-      <h2>SOY MILE</h2>
-      <h2>SOY LUCAS</h2>
+      
 
       <div class="radio-input">
         <label class="label">
