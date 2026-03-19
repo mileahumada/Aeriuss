@@ -16,27 +16,27 @@
 
 <body class="body" id="hero">
   <header>
-    <a href="inicio.html" class="logo">
+    <a href="inicio.php" class="logo">
       <img src="imagenes/logo con letra.png" alt="" width="150" class="logo" />
     </a>
     <nav>
-      <a href="paquetes.html" class="link">
+      <a href="paquetes.php" class="link">
         <i class="fa-solid fa-suitcase" style="color: #006a71"></i>
         Paquetes
       </a>
-      <a href="inicio.html" class="link">
+      <a href="inicio.php" class="link">
         <i class="fa-solid fa-plane-departure"></i>
         Vuelos
       </a>
-      <a href="alojamientos.html" class="link">
+      <a href="alojamientos.php" class="link">
         <i class="fa-solid fa-house"></i>
         Alojamientos
       </a>
-      <a href="ofertas.html" class="link">
+      <a href="ofertas.php" class="link">
         <i class="fa-solid fa-fire "></i>
         Ofertas
       </a>
-      <a href="InicioSesion.html" class="buttons"><button>Iniciar Sesion</button></a>
+      <a href="InicioSesion.php" class="buttons"><button>Iniciar Sesion</button></a>
       <a href="Registro.html" class="buttons"><button>Registrarse</button></a>
     </nav>
   </header>
@@ -240,7 +240,7 @@
           <br>
           nacionales: $ 72.116
         </p>
-        <a href="eleccionaloj.html"><button >Elegir</button></a>
+        <a href="eleccionaloj.php"><button >Elegir</button></a>
 
       </div>
     </div>
@@ -370,7 +370,7 @@
           <br>
           nacionales: $ 72.116
         </p>
-        <a href="eleccionaloj.html"><button >Elegir</button></a>
+        <a href="eleccionaloj.php"><button >Elegir</button></a>
 
       </div>
     </div>
@@ -500,7 +500,7 @@
           <br>
           nacionales: $ 72.116
         </p>
-        <a href="eleccionaloj.html"><button >Elegir</button></a>
+        <a href="eleccionaloj.php"><button >Elegir</button></a>
 
       </div>
     </div>
@@ -630,7 +630,7 @@
           <br>
           nacionales: $ 72.116
         </p>
-        <a href="eleccionaloj.html"><button >Elegir</button></a>
+        <a href="eleccionaloj.php"><button >Elegir</button></a>
 
       </div>
     </div>
@@ -760,7 +760,7 @@
           <br>
           nacionales: $ 72.116
         </p>
-        <a href="eleccionaloj.html"><button >Elegir</button></a>
+        <a href="eleccionaloj.php"><button >Elegir</button></a>
         
       </div>
     </div>
