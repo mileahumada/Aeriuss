@@ -16,7 +16,7 @@
   <body class="hero">
     <div class="form">
       <form action="registro.php" method="post">
-        <a href="inicio.html"
+        <a href="inicio.php"
           ><img src="imagenes/logo con letra.png" alt="" width="100"
         /></a>
         <p>Nombre</p>

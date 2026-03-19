@@ -20,7 +20,7 @@
   <body class="hero">
     <div class="form">
       <form action="formularios.php" method="POST">
-        <a href="inicio.html"
+        <a href="inicio.php"
           ><img src="imagenes/logo con letra.png" alt="" width="100"
         /></a>
         <p>Email</p>
@@ -46,8 +46,8 @@
         <br /><br />
         <p>No tenes cuenta?</p>
 
-        <a href="Registro.html">
-          <button class="button" href="Registro.html">Registrarse</button>
+        <a href="Registro.php">
+          <button class="button" href="Registro.php">Registrarse</button>
         </a>
       </form>
     </div>
