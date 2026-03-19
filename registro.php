@@ -22,7 +22,7 @@ if ((!empty($usuario)) && (!empty($clave)) && (!empty($clave_rep)) && (!empty($e
       
         $password_hash = password_hash($clave, PASSWORD_DEFAULT); //creamos un hash seguro para la contraseña
         
-        $sql = "INSERT INTO usuario (nombre, apellido, email, contraseña) VALUES (?,?,?,?)"; //insercion para la DB, ? los usamos para mejorar la seguridad
+        $sql = "INSERT INTO usuarios (nombre, apellido, email, contraseña) VALUES (?,?,?,?)"; //insercion para la DB, ? los usamos para mejorar la seguridad
         
         $stmt = $conexion->prepare($sql);
 
