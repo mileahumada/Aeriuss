@@ -1,15 +1,12 @@
 body {
-<<<<<<< HEAD
   background-color: #0a5b90;
-=======
-  background-color: #968671;
->>>>>>> 3da6d3db26a12f474d973198b158871a4ad3626d
   font-family: "Lexend", sans-serif;
   overflow: hidden;
 }
 
 
 .form {
+  margin-top: 100px;
   margin: 25px auto;
   width: 350px;
   padding: 20px;
