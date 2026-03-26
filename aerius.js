@@ -136,3 +136,70 @@ function avanzarimagenes() {
   // //   slides.style.transform = `translateX(${-currentIndex * 100}%)`;
   // // }
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  const origenInput = document.getElementById("origen");
+  const sugerenciasOrigen = document.getElementById("sugerencias-origen");
+
+  origenInput.addEventListener("keyup", () => {
+    let valor = origenInput.value;
+
+    if (valor.length > 1) {
+      fetch("sugerencialugares.php?q=" + encodeURIComponent(valor))
+        .then(res => res.text())
+        .then(data => {
+          sugerenciasOrigen.innerHTML = data;
+
+        });
+    } else {
+      sugerenciasOrigen.innerHTML = "";
+    }
+  });
+
+  
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  const destinoInput = document.getElementById("destino");
+  const sugerenciasDestino = document.getElementById("sugerencias-destino");
+
+   destinoInput.addEventListener("keyup", () => {
+    let valor = destinoInput.value;
+
+    if (valor.length > 1) {
+      fetch("sugerencialugares.php?q=" + encodeURIComponent(valor))
+        .then(res => res.text())
+        .then(data => {
+          sugerenciasDestino.innerHTML = data;
+          
+        });
+    } else {
+      sugerenciasDestino.innerHTML = "";
+    }
+  });
+
+  
+
+});
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  document.addEventListener("click", function(e) {
+  if (e.target.classList.contains("opcion")) {
+
+    if (e.target.parentElement.id === "sugerencias-origen") {
+      document.getElementById("origen").value = e.target.textContent;
+      document.getElementById("sugerencias-origen").innerHTML = "";
+    }
+
+    if (e.target.parentElement.id === "sugerencias-destino") {
+      document.getElementById("destino").value = e.target.textContent;
+      document.getElementById("sugerencias-destino").innerHTML = "";
+    }
+
+  }
+});
+  
+});
+

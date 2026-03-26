@@ -19,9 +19,7 @@ que guarda el mensaje de error si la conexión falló.
 if ($conexion->connect_error) {
     die("Conexión fallida: " . $conexion->connect_error);
 }
-else{
-    echo "conexion exitosa";
-}
+
 
 // Cerrar la conexión (opcional al final del script)
 //$conexion->close();

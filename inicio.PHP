@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -53,6 +57,7 @@
         <div class="group">
           <i class="fa-solid fa-plane-departure" id="icon"></i>
           <input type="text" placeholder="Origen" class="input" id="origen">
+          <div id="sugerencias-origen"></div>
         </div>
 
         <button id="boton-card" onclick="intercambiarlugares()"><i class="fa-solid fa-arrows-turn-to-dots"></i></button>
@@ -60,7 +65,7 @@
         <div class="group">
           <i class="fa-solid fa-plane-arrival" id="icon"></i>
           <input type="text" placeholder="Destino" class="input" id="destino">
-        </div>
+          <div id="sugerencias-destino"></div>        </div>
 
         <div class="group">
           <i class="fa-solid fa-calendar-days" id="icon"></i>
