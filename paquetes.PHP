@@ -62,7 +62,7 @@
 
                 <div class="groupp">
                     <i class="fa-solid fa-calendar-days" id="icon"></i>
-                    <input type="date" placeholder="Destino" class="inputp">
+                    <input type="date" placeholder="Destino" class="inputp" min="2026-03-26">
                 </div>
 
 

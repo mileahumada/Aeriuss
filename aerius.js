@@ -135,6 +135,7 @@ function avanzarimagenes() {
 
   // //   slides.style.transform = `translateX(${-currentIndex * 100}%)`;
   // // }
+  
 }
 
 document.addEventListener("DOMContentLoaded", function() {
