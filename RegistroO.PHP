@@ -12,13 +12,19 @@
     />
     <title>Registro</title>
   </head>
+   <header>
+    <a href="inicio.php" class="logo">
+      <img src="imagenes/logo con letra.png" alt="" width="120" class="logo" />
+    </a>
+    
+    
+    </nav>
+  </header>
 
   <body class="hero">
     <div class="form">
       <form action="registro.php" method="post">
-        <a href="inicio.php"
-          ><img src="imagenes/logo con letra.png" alt="" width="100"
-        /></a>
+        
         <p>Nombre</p>
         <input type="text" class="input" placeholder="Nombre" name="nombre" />
         <p>Apellido</p>

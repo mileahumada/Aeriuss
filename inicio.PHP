@@ -38,7 +38,7 @@
         Ofertas
       </a>
       <a href="InicioSesion.php" class="buttons"><button>Iniciar Sesion</button></a>
-      <a href="Registro.php" class="buttons"><button>Registrarse</button></a>
+      <a href="RegistroO.php" class="buttons"><button>Registrarse</button></a>
     </nav>
   </header>
 

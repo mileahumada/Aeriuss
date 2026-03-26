@@ -17,12 +17,19 @@
     <title>Inicio Sesion</title>
   </head>
 
+  <header>
+    <a href="inicio.php" class="logo">
+      <img src="imagenes/logo con letra.png" alt="" width="120" class="logo" />
+    </a>
+    
+    
+    </nav>
+  </header>
+
   <body class="hero">
     <div class="form">
       <form action="formularios.php" method="POST">
-        <a href="inicio.php"
-          ><img src="imagenes/logo con letra.png" alt="" width="100"
-        /></a>
+       
         <p>Email</p>
         <input
           type="email"
