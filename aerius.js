@@ -201,6 +201,19 @@ document.addEventListener("DOMContentLoaded", function() {
 
   }
 });
+const hoy =new Date();
+const fechaFormateada = hoy.toISOString().split('T')[0];
+document.getElementById("miFecha").setAttribute("min", fechaFormateada);
   
+window.onload = function() {
+    const fechaMinima = new Date().toISOString().split('T')[0];
+    document.getElementById("miFecha").min = fechaMinima;
+}
+function ctualizarfecha()
+{
+
+  actualizarfecha()
+}
+
 });
 
