@@ -242,6 +242,55 @@ button:active {
   transition: 0.5s ease;
 }
 
+/* 1. Arreglar el Input para que no se vea feo */
+#rango_fechas {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px 15px 10px 40px; /* Espacio para el icono */
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* 2. Estilo del Calendario (Contenedor principal) */
+.flatpickr-calendar {
+    background: #fff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15) !important;
+    border: none !important;
+    border-radius: 12px !important;
+    padding: 10px;
+}
+
+/* 3. Colores Púrpuras (Como la primera imagen) */
+.flatpickr-day.selected, 
+.flatpickr-day.startRange, 
+.flatpickr-day.endRange {
+    background: #4b16a9 !important; /* Púrpura oscuro */
+    border-color: #4b16a9 !important;
+    color: white !important;
+}
+
+.flatpickr-day.inRange {
+    background: #f0eaff !important; /* Púrpura muy claro para el medio */
+    border-color: transparent !important;
+    box-shadow: -5px 0 0 #f0eaff, 5px 0 0 #f0eaff !important;
+    color: #4b16a9 !important;
+}
+
+/* 4. Encabezados (Meses y días) */
+.flatpickr-months .flatpickr-month {
+    background: transparent !important;
+    color: #333 !important;
+    fill: #333 !important;
+}
+
+span.flatpickr-weekday {
+    color: #999 !important;
+    font-weight: bold;
+}
+
 .input:focus,
 input:hover {
   outline: none;

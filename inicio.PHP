@@ -12,6 +12,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
   <script src="aerius.js"></script>
   <title>Aerius</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/confetti.css">
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="https://npmcdn.com/flatpickr/dist/l10n/es.js"></script>
 </head>
 
 <body class="body" id="hero">
@@ -66,13 +70,7 @@
 
         <div class="group">
           <i class="fa-solid fa-calendar-days" id="icon"></i>
-          <input type="date" class="input" id="fecha1">
-        </div>
-
-
-        <div class="group">
-          <i class="fa-solid fa-calendar-days" id="icon"></i>
-          <input type="date" class="input" id="fecha2">
+          <input type="text" class="input" id="rango_fechas" placeholder="Seleccione fechas">
         </div>
 
         <div class="ipasajeros" id="div-pasajeros">
@@ -357,6 +355,21 @@
       </div>
     </footer>
   </div>
+  <script>
+  flatpickr("#rango_fechas", {
+    mode: "range",           // Habilita selección de rango (ida y vuelta)
+    minDate: "today",        // No permite seleccionar fechas pasadas
+    showMonths: 2,           // Muestra 2 meses al mismo tiempo
+    dateFormat: "d M, Y",    // Formato: 03 may, 2026
+    locale: "es",            // Idioma español
+    onReady: function(selectedDates, dateStr, instance) {
+      // Esto ayuda a que el calendario se vea bien en móviles
+      if (window.innerWidth < 768) {
+        instance.set("showMonths", 1);
+      }
+    }
+  });
+</script>
 </body>
 
 </html>
