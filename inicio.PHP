@@ -1,7 +1,3 @@
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -65,7 +61,8 @@
         <div class="group">
           <i class="fa-solid fa-plane-arrival" id="icon"></i>
           <input type="text" placeholder="Destino" class="input" id="destino">
-          <div id="sugerencias-destino"></div>        </div>
+          <div id="sugerencias-destino"></div>
+        </div>
 
         <div class="group">
           <i class="fa-solid fa-calendar-days" id="icon"></i>
@@ -143,149 +140,188 @@
 
   <div class="titulos">
     <h1>Paquetes</h1>
-    <button>Ver todo</button>
   </div>
 
   <div class="container">
     <div class="tarjeta">
-      <a href="">
-        <figure>
-          <img src="imagenes/lugar1.jpg" alt="" width="500" />
-        </figure>
-        <div class="contenido">
-          <p>Paquete</p>
-          <h3>Moscu</h3>
-          <p>
-            6 DIAS / 5 NOCHES
-            <BR></BR>
-            HOTEL HILTON GARDEN
-            <BR></BR>
-          <h3> $1.600.000 POR PERSONA </h3>
-          </p>
+      <figure>
+        <img src="https://www.omintassistance.com.ar/blog/wp-content/uploads/2024/03/Todo-lo-que-tenes-que-saber-para-visitar-las-Cataratas-del-Iguazu.jpeg" alt="Iguazú">
+        <div class="badge-dias">5 DÍAS / 4 NOCHES</div>
+      </figure>
 
+      <div class="contenido">
+        <span class="categoria">PAQUETE</span>
+        <h3>Paquetes a Puerto Iguazú</h3>
+
+        <div class="rating">
+          <span class="score">6.9</span>
+          <span class="stars">★★★</span>
         </div>
-      </a>
+
+        <p class="detalles">Saliendo desde Buenos Aires</p>
+        <p class="detalles">Hotel + Vuelo</p>
+
+        <div class="oferta-tag">Oferta Imbatible</div>
+
+        <hr class="divisor">
+
+        <div class="seccion-precio">
+          <p class="texto-precio">Precio final por persona</p>
+          <div class="precio-final"><span>$</span> 241.456</div>
+          <p class="impuestos">Incluye impuestos, tasas y cargos</p>
+        </div>
+      </div>
     </div>
     <div class="tarjeta">
+      <figure>
+        <img src="https://www.latamairlines.com/content/dam/latamxp/sites/vamos-latam/news-nieve-sudam%C3%A9rica-may25/bariloche/Modelo-3.png" alt="Iguazú">
+        <div class="badge-dias">5 DÍAS / 4 NOCHES</div>
+      </figure>
 
-      <a href="">
-        <figure>
-          <img src="imagenes/lugar2.jpg" alt="" width="500" />
-        </figure>
-        
-        <div class="contenido">
-          <p>Paquete</p>
-          <h3>España</h3>
-          <p>
-            14 DIAS / 13 NOCHES
-            <BR></BR>
-            HOTEL ASIA GARDENS
-            <BR></BR>
-          <h3>$2.000.000 POR PERSONA</h3>
-          </p>
+      <div class="contenido">
+        <span class="categoria">PAQUETE</span>
+        <h3>Paquetes a Bariloche</h3>
 
+        <div class="rating">
+          <span class="score">6.9</span>
+          <span class="stars">★★★</span>
         </div>
-      </a>
+
+        <p class="detalles">Saliendo desde Buenos Aires</p>
+        <p class="detalles">Hotel + Vuelo</p>
+
+        <div class="oferta-tag">Oferta Imbatible</div>
+
+        <hr class="divisor">
+
+        <div class="seccion-precio">
+          <p class="texto-precio">Precio final por persona</p>
+          <div class="precio-final"><span>$</span> 241.456</div>
+          <p class="impuestos">Incluye impuestos, tasas y cargos</p>
+        </div>
+      </div>
     </div>
     <div class="tarjeta">
-      <a href="">
-        <figure>
-          <img src="imagenes/lugar3.jpg" alt="" width="500" />
-        </figure>
-        <div class="contenido">
-          <p>Paquete</p>
-          <h3>Paris</h3>
-          <p>
-            7 DIAS / 6 NOCHES
-            <BR></BR>
-            HOTEL NAPOLEON
-            <BR></BR>
-          <h3>$2.100.000 POR PERSONA</h3>
+      <figure>
+        <img src="https://cumelentours.tur.ar/wp-content/uploads/2025/01/%C2%BFCual-es-la-mejor-epoca-para-conocer-El-Calafate-Cumelen-1024x683.jpg" alt="Iguazú">
+        <div class="badge-dias">5 DÍAS / 4 NOCHES</div>
+      </figure>
 
-          </p>
+      <div class="contenido">
+        <span class="categoria">PAQUETE</span>
+        <h3>Paquetes a Calafate</h3>
 
+        <div class="rating">
+          <span class="score">6.9</span>
+          <span class="stars">★★★</span>
         </div>
-      </a>
+
+        <p class="detalles">Saliendo desde Buenos Aires</p>
+        <p class="detalles">Hotel + Vuelo</p>
+
+        <div class="oferta-tag">Oferta Imbatible</div>
+
+        <hr class="divisor">
+
+        <div class="seccion-precio">
+          <p class="texto-precio">Precio final por persona</p>
+          <div class="precio-final"><span>$</span> 241.456</div>
+          <p class="impuestos">Incluye impuestos, tasas y cargos</p>
+        </div>
+      </div>
     </div>
   </div>
 
   <div class="titulos">
     <h1>Alojamientos</h1>
-    <button>Ver todo</button>
   </div>
   <div class="container">
     <div class="tarjeta">
       <figure>
-        <img src="imagenes/hotel1.jpg" alt="" width="500" />
-        <a href="">
+        <img src="https://www.omintassistance.com.ar/blog/wp-content/uploads/2024/03/Todo-lo-que-tenes-que-saber-para-visitar-las-Cataratas-del-Iguazu.jpeg" alt="Iguazú">
+        <div class="badge-dias">5 DÍAS / 4 NOCHES</div>
       </figure>
+
       <div class="contenido">
-        <p>Alojamiento</p>
-        <h3>Pella In Hostel</h3>
-        <p>
-          <span class="material-symbols-outlined" style="color: #d8a409; font-size: 16px;">
-            kid_star
-            kid_star
-            kid_star
-          </span>
-          <br>
-        <p> 1 noche, 2 personas</p>
-        <br>
-        <h3> $200.000 </h3>
-        </p>
+        <span class="categoria">PAQUETE</span>
+        <h3>Paquetes a Puerto Iguazú</h3>
 
+        <div class="rating">
+          <span class="score">6.9</span>
+          <span class="stars">★★★</span>
+        </div>
+
+        <p class="detalles">Saliendo desde Buenos Aires</p>
+        <p class="detalles">Hotel + Vuelo</p>
+
+        <div class="oferta-tag">Oferta Imbatible</div>
+
+        <hr class="divisor">
+
+        <div class="seccion-precio">
+          <p class="texto-precio">Precio final por persona</p>
+          <div class="precio-final"><span>$</span> 241.456</div>
+          <p class="impuestos">Incluye impuestos, tasas y cargos</p>
+        </div>
       </div>
-      </a>
     </div>
     <div class="tarjeta">
-      <a href="">
-        <figure>
-          <img src="imagenes/hotel2.jpg" alt="" width="500" />
-        </figure>
-        <div class="contenido">
-          <p>Alojamiento</p>
-          <h3>Diva Pyramids view inn</h3>
-          <p>
-            <span class="material-symbols-outlined" style="color: #d8a409; font-size: 16px;">
-              kid_star
-              kid_star
-              kid_star
-            </span>
-            <br>
-          <p> 1 noche, 2 personas</p>
-          <br>
-          <h3>$149.000</h3>
-          </p>
+      <figure>
+        <img src="https://www.latamairlines.com/content/dam/latamxp/sites/vamos-latam/news-nieve-sudam%C3%A9rica-may25/bariloche/Modelo-3.png" alt="Iguazú">
+        <div class="badge-dias">5 DÍAS / 4 NOCHES</div>
+      </figure>
 
+      <div class="contenido">
+        <span class="categoria">PAQUETE</span>
+        <h3>Paquetes a Bariloche</h3>
+
+        <div class="rating">
+          <span class="score">6.9</span>
+          <span class="stars">★★★</span>
         </div>
-      </a>
 
+        <p class="detalles">Saliendo desde Buenos Aires</p>
+        <p class="detalles">Hotel + Vuelo</p>
+
+        <div class="oferta-tag">Oferta Imbatible</div>
+
+        <hr class="divisor">
+
+        <div class="seccion-precio">
+          <p class="texto-precio">Precio final por persona</p>
+          <div class="precio-final"><span>$</span> 241.456</div>
+          <p class="impuestos">Incluye impuestos, tasas y cargos</p>
+        </div>
+      </div>
     </div>
     <div class="tarjeta">
-      <a href="  ">
-        <figure>
-          <img src="imagenes/hotel3.jpg" alt="" width="500" />
-        </figure>
-        <div class="contenido">
-          <p>Alojamiento</p>
-          <h3>The Muse New York</h3>
+      <figure>
+        <img src="https://cumelentours.tur.ar/wp-content/uploads/2025/01/%C2%BFCual-es-la-mejor-epoca-para-conocer-El-Calafate-Cumelen-1024x683.jpg" alt="Iguazú">
+        <div class="badge-dias">5 DÍAS / 4 NOCHES</div>
+      </figure>
 
-          <p>
-            <span class="material-symbols-outlined" style="color: #d8a409; font-size: 16px;">
-              kid_star
-              kid_star
-              kid_star
-              kid_star
-            </span>
-            <br>
-          <p>2 noches, 3 personas </p>
-          <br>
-          <h3>$300.000</h3>
-          </p>
+      <div class="contenido">
+        <span class="categoria">PAQUETE</span>
+        <h3>Paquetes a Calafate</h3>
 
+        <div class="rating">
+          <span class="score">6.9</span>
+          <span class="stars">★★★</span>
         </div>
-      </a>
 
+        <p class="detalles">Saliendo desde Buenos Aires</p>
+        <p class="detalles">Hotel + Vuelo</p>
+
+        <div class="oferta-tag">Oferta Imbatible</div>
+
+        <hr class="divisor">
+
+        <div class="seccion-precio">
+          <p class="texto-precio">Precio final por persona</p>
+          <div class="precio-final"><span>$</span> 241.456</div>
+          <p class="impuestos">Incluye impuestos, tasas y cargos</p>
+        </div>
+      </div>
     </div>
   </div>
 
